@@ -5,12 +5,19 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
 }
 
 body {
+    background-color: rgb(212, 212, 212);
+}
+.wrapper {
     display: flex;
     align-items: stretch;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .sidebar {
     background: #10365C;
@@ -79,7 +86,8 @@ h2 {
 }
 .details .info h3 {
     color: rgb(146, 146, 146);
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
 }
 .skill {
     border-bottom: 4px solid grey;
@@ -157,4 +165,19 @@ h2 {
 }
 .interval {
     color: grey;
+}
+
+.marg-none {
+    margin-bottom: 0 !important;
+}
+
+.skill10, .skill11, .skill12 {
+    display: flex;
+    padding: 6px 0;
+}
+.flag {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
