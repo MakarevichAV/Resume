@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    display: flex;
+    align-items: stretch;
+}
+.sidebar {
+    background: #10365C;
+    min-width: calc(100% / 3);
+    padding: 80px;
+}
+.personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    background: url(./521067718.jpeg) no-repeat center center / cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.name {
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.name::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    width: 30px;
+    height: 2px;
+    background-color: #326394;
+}
+.job-title {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.details {
+}
+.info {
+    margin-bottom: 30px;
+}
+.info h2 {
+    font-weight: 300;
+}
+.details .info h2 {
+    color: white;
+}
+.info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.details .info p {
+    color: rgb(219, 219, 219);
+} 
+h2 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.details .info h3 {
+    color: rgb(146, 146, 146);
+    letter-spacing: 4px;
+}
+.skill {
+    border-bottom: 4px solid grey;
+    position: relative;
+}
+.skill::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    bottom: -4px;
+}
+.skill1:before {
+    width: 100%;
+}
+.skill2:before {
+    width: 80%;
+}
+.skill3:before {
+    width: 50%;
+}
+.skill4:before {
+    width: 50%;
+}
+.skill5:before {
+    width: 60%;
+}
+.skill6:before {
+    width: 100%;
+}
+.skill7:before {
+    width: 100%;
+}
+.skill8:before {
+    width: 40%;
+}
+.skill9:before {
+    width: 100%;
+}
+.skill10:before {
+    width: 100%;
+}
+.skill11:before {
+    width: 40%;
+}
+.skill12:before {
+    width: 18%;
+}
+.content {
+    padding: 80px;
+}
+.content .job-title {
+    letter-spacing: 2px;
+    color:  #202020;
+    font-weight: 300;
+}
+.content .info {
+    margin-bottom: 40px;
+}
+.content h2 {
+    color:  #000000;
+    font-weight: bold;
+}
+.content h3 {
+    text-align: left;
+}
+.desc {
+    color: rgb(46, 46, 46);
+}
+.history-item {
+    margin-bottom: 30px;
+}
+.pad {
+    padding-left: 30px;
+}
+.interval {
+    color: grey;
+}
