@@ -276,6 +276,9 @@ h2 {
     .job-title {
         text-align: left;
         font-size: 20px;
+    }
+
+    .personal .job-title {
         margin-bottom: 30px;
     }
 
