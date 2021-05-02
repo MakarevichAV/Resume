@@ -166,6 +166,7 @@ h2 {
 
 .content {
     padding: 80px;
+    padding-bottom: 0;
 }
 
 .content .job-title {
@@ -377,6 +378,7 @@ li {
     .sidebar,
     .content {
         padding: 60px;
+        padding-bottom: 0;
     }
 }
 
@@ -385,6 +387,7 @@ li {
     .sidebar,
     .content {
         padding: 60px 40px;
+        padding-bottom: 0;
     }
 
     .photo {
