@@ -241,6 +241,11 @@ li {
     color: white;
 }
 
+.list-item:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+
 .list-item:before {
     content: "";
     position: absolute;
@@ -265,7 +270,7 @@ li {
     background: url(./rus.jpg) no-repeat center center / cover;
 }
 
-.active {
+.language-list .active {
     color: #9daac3;
 }
 
