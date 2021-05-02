@@ -70,8 +70,6 @@ body {
     text-align: center;
 }
 
-.details {}
-
 .info {
     margin-bottom: 30px;
 }
@@ -221,6 +219,157 @@ h2 {
     height: 30px;
     margin-right: 10px;
     border-radius: 50%;
+}
+
+.language-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.list-item {
+    text-decoration: none;
+    margin: 20px 15px;
+    position: relative;
+    color: white;
+}
+
+.list-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.english:before {
+    background: url(./flag-velikobritanii.png) no-repeat center center / cover;
+}
+
+.hebrew:before {
+    background: url(./hebrew.jpg) no-repeat center center / cover;
+}
+
+.russian:before {
+    background: url(./rus.jpg) no-repeat center center / cover;
+}
+
+.active {
+    color: #9daac3;
+}
+
+.hobbie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 15px;
+    min-width: 30px;
+    height: 30px;
+    background: no-repeat center center / contain;
+    border-radius: 50%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    width: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.picture {
+    height: 140px;
+    border-radius: 4px;
+    background: no-repeat center center / cover;
+    margin-bottom: 10px;
+}
+.description {
+    text-align: center;
+}
+
+.empty {
+    border: 0;
+}
+
+.carousel-inner {
+    background: black;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item h3 {
+    text-align: center;
+}
+
+.carousel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.unvisible {
+    display: none;
+}
+
+.crose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    opacity: 0.7;
+}
+
+.crose::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 8px;
+    background: #ffffff;
+}
+
+.crose::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 8px;
+    height: 100%;
+    background: #ffffff;
+}
+
+.crose:hover {
+    opacity: 1;
 }
 
 @media(max-width: 1150px) {
