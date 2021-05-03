@@ -13,4 +13,66 @@
 h2 {
   text-align: right;
 }
+
+.skill::before {
+  right: 0;
+}
+
+.skill10,
+.skill11,
+.skill12 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.skill10 .flag,
+.skill11 .flag,
+.skill12 .flag {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.hobbie {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.hobbie .icon {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .personal {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .photo {
+    margin-right: 0;
+    margin-left: 30px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .personal .name {
+    text-align: right;
+  }
+  .personal .job-title {
+    text-align: right;
+  }
+}
 /*# sourceMappingURL=hebrew.css.map */

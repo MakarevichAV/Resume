@@ -152,6 +152,10 @@ h2 {
     width: 100%;
 }
 
+.skill99:before {
+    width: 100%;
+}
+
 .skill10:before {
     width: 100%;
 }
@@ -383,6 +387,8 @@ li {
     .sidebar,
     .content {
         padding: 60px;
+    }
+    .content {
         padding-bottom: 0;
     }
 }
@@ -392,6 +398,9 @@ li {
     .sidebar,
     .content {
         padding: 60px 40px;
+    }
+
+    .content {
         padding-bottom: 0;
     }
 
