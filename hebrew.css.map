@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,KAAK;CAIpB;;AALD,AAEI,QAFI,CAEJ,EAAE,CAAC;EACC,UAAU,EAAE,KAAK;CACpB;;AAGL,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,KAAK;CACpB;;AAED,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "hebrew.scss"
+    ],
+    "names": [],
+    "file": "hebrew.css"
+}
