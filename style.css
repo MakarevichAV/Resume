@@ -43,6 +43,9 @@ body {
     border-radius: 50%;
     margin-bottom: 30px;
 }
+.photo2 {
+    background: url(./v8YDuub5Lig.jpg) no-repeat center -75px / 170%;
+}
 
 .name {
     font-size: 40px;
